@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+}
+
+.heading {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(0, 225, 255);
+    text-align: center;
+}
+
+.heading h1 {
+    padding: 25px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+}
+
+img {
+    width: 50%;
+    padding: 20px;
+}
+
+.image {
+    text-align: center;
+}
+
+.paragraph {
+    padding: 30px;
+}
+
+p {
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url('https://img.freepik.com/premium-photo/white-paper-texture-background-abstract-white-paper-texture-with-wavy-pattern_743855-14600.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,39 @@
+.container{
+    /* border: 2px solid black; */
+    width: 14%;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+}
+
+img {
+    width: 100%;
+    border-radius: 50%;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+h5 {
+    margin: 0px;
+}
+
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/004/243/021/non_2x/abstract-template-background-white-and-bright-blue-squares-overlapping-with-halftone-and-texture-free-vector.jpg);
+    background-size: cover;
+}
+
+@keyframes example {
+    0%{
+        top: 0px;
+    }
+
+    60%{
+        top: -50px;
+    }
+    
+    100%{
+        top: 0px;
+    }
+}
